@@ -1,0 +1,3 @@
+# AdventOfCode
+
+I found this series of puzzles and I thought they would be fun to solve with python...
