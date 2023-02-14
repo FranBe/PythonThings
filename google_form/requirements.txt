@@ -1,4 +1,3 @@
 pandas
 numpy
-rpaframework
 selenium
