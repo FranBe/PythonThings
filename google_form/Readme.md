@@ -37,16 +37,32 @@ URLs de interés:
 
 ## Preparación del set de datos
 
+Se realiza un filtrado del dataset, para reducir el número de participantes. Se consideran solo aquellos que cumplan con lo siguiente:
+
+- hayan viajado en el 2022
+- provenientes de varias regiones y provincias, excepto de la provincia de Buenos Aires (solo por reducir el número de participantes)
+- con destino a San Carlos de Bariloche
+- se seleccionan 6 preguntas, de todas las realizadas en la encuesta original
+
+Se obtiene una muestra de 41 participantes, algo que es de utilidad para la carga automática de las respuestas.<br>
+El notebook correspondiente: [ingesta_viajes.ipynb](/ingesta_viajes.ipynb)
+
 [(Contenidos)](#tabla-de-contenidos)
 <br>
 
 ## Generación del formulario
 
-[(Contenidos)](tTabla-de-contenidos)
+Se crea un [formulario de Google](https://www.google.com/forms/about/), con las 6 preguntas mencionadas, y las opciones según el dataset obtenido.
+<br>
+En este caso, la URL de interés: (https://docs.google.com/forms/d/e/1FAIpQLSdRCqe54MSDtz3tSjjw0few6OGz0gTQ0NwnKc7Bd--FHwDyvg/viewform?usp=sf_link)
+
+[(Contenidos)](#Tabla-de-contenidos)
 <br>
 
 
 ## Carga formulario
+
+Usando Python y Selenium, se cargan de forma automática los datos en el formulario, simulando las respuestas de los participantes, y se envían los mismos.
 
 [(Contenidos)](#tabla-de-contenidos)
 <br>
@@ -54,7 +70,9 @@ URLs de interés:
 ## Obtención de resultados
 
 
-[(Contenidos)](tTabla-de-contenidos)
+
+
+[(Contenidos)](#Tabla-de-contenidos)
 <br>
 
 ## Presentación
