@@ -43,9 +43,9 @@ Se realiza un filtrado del dataset, para reducir el número de participantes. Se
 - provenientes de varias regiones y provincias, excepto de la provincia de Buenos Aires (solo por reducir el número de participantes)
 - con destino a San Carlos de Bariloche
 - se seleccionan 6 preguntas, de todas las realizadas en la encuesta original
-
+ingesta_viajes.ipynb
 Se obtiene una muestra de 41 participantes, algo que es de utilidad para la carga automática de las respuestas.<br>
-El notebook correspondiente: [ingesta_viajes.ipynb](/ingesta_viajes.ipynb)
+El notebook correspondiente: [ingesta_viajes.ipynb](ingesta_viajes.ipynb)
 
 [(Contenidos)](#tabla-de-contenidos)
 <br>
@@ -56,7 +56,7 @@ Se crea un [formulario de Google](https://www.google.com/forms/about/), con las 
 <br>
 En este caso, la URL de interés: (https://docs.google.com/forms/d/e/1FAIpQLSdRCqe54MSDtz3tSjjw0few6OGz0gTQ0NwnKc7Bd--FHwDyvg/viewform?usp=sf_link)
 
-[(Contenidos)](#Tabla-de-contenidos)
+[(Contenidos)](#tabla-de-contenidos)
 <br>
 
 
@@ -69,19 +69,31 @@ Usando Python y Selenium, se cargan de forma automática los datos en el formula
 
 ## Obtención de resultados
 
+Se muestran los gráficos (pie chart) de las encuestas, con los porcentajes de respuestas de todos los participantes.
+<br>
+![Image](/assets/images/Screenshot_20230210_173128.png)
+<br>
+![Image](/assets/images/Screenshot_20230210_173138.png)
+<br>
+
+
+De todas maneras, lo interesante es la carga de la información en una hoja de cálculo de Google, de modo que quede accesible desde cualquier parte al ser compartida, y se pueda realizar un análisis de de la información, así como la presentación de la misma.
 
 
 
-[(Contenidos)](#Tabla-de-contenidos)
+[(Contenidos)](#tabla-de-contenidos)
 <br>
 
 ## Presentación
+
+(TODO)
 
 [(Contenidos)](#tabla-de-contenidos)
 <br>
 
 
 ## Aspectos finales
+(TODO)
 
 [(Contenidos)](#tabla-de-contenidos)
 <br>
