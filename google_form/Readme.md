@@ -69,9 +69,9 @@ Usando Python y Selenium, se cargan de forma automática los datos en el formula
 
 Se muestran los gráficos (pie chart) de las encuestas, con los porcentajes de respuestas de todos los participantes.
 <br>
-![Image](/assets/images/Screenshot_20230210_173128.png)
+![Image1](assets/images/Screenshot_20230214_122952.png)
 <br>
-![Image](/assets/images/Screenshot_20230210_173138.png)
+![Image2](assets/images/Screenshot_20230214_123005.png)
 <br>
 
 
