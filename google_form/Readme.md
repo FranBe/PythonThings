@@ -1,16 +1,16 @@
 
-
-# Python & Google Forms
+<h1 style="font-weight:normal">
+ Python :snake: & Google Forms 📒
+</h1>
 
 > Simulación de una encuesta usando Python para automatizar el proceso de carga de los datos en un formulario de Google
-
 
 ## Tabla de contenidos
 
 - [Recolección de datos](#recolección-de-datos)
 - [Preparación del set de datos](#preparación-del-set-de-datos)
 - [Generación del formulario](#generación-del-formulario)
-- [Carga formulario](#carga-formulario)
+- [Carga del formulario](#carga-del-formulario)
 - [Obtención de resultados](#obtención-de-resultados)
 - [Presentación](#presentación)
 - [Aspectos finales](#aspectos-finales)
@@ -33,8 +33,6 @@ URLs de interés:
 - [Diccionario en CSV](http://datos.yvera.gob.ar/dataset/b5819e9b-5edf-4aad-bd39-a81158a2b3f3/resource/d8107236-f5ba-428d-8a31-f9b2034d8c8f/download/evyth_diccionario_registro.csv)
         
 
-<br>
-
 ## Preparación del set de datos
 
 Se realiza un filtrado del dataset, para reducir el número de participantes. Se consideran solo aquellos que cumplan con lo siguiente:
@@ -54,13 +52,13 @@ El notebook correspondiente: [ingesta_viajes.ipynb](ingesta_viajes.ipynb)
 
 Se crea un [formulario de Google](https://www.google.com/forms/about/), con las 6 preguntas mencionadas, y las opciones según el dataset obtenido.
 <br>
-En este caso, la URL de interés: (https://docs.google.com/forms/d/e/1FAIpQLSdRCqe54MSDtz3tSjjw0few6OGz0gTQ0NwnKc7Bd--FHwDyvg/viewform?usp=sf_link)
+En este caso, la URL de interés: [encuesta](https://docs.google.com/forms/d/e/1FAIpQLSdRCqe54MSDtz3tSjjw0few6OGz0gTQ0NwnKc7Bd--FHwDyvg/viewform?usp=sf_link)
 
 [(Contenidos)](#tabla-de-contenidos)
 <br>
 
 
-## Carga formulario
+## Carga del formulario
 
 Usando Python y Selenium, se cargan de forma automática los datos en el formulario, simulando las respuestas de los participantes, y se envían los mismos.
 
