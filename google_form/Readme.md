@@ -43,7 +43,7 @@ Se realiza un filtrado del dataset, para reducir el número de participantes. Se
 - se seleccionan 6 preguntas, de todas las realizadas en la encuesta original
 ingesta_viajes.ipynb
 Se obtiene una muestra de 41 participantes, algo que es de utilidad para la carga automática de las respuestas.<br>
-El notebook correspondiente: [ingesta_viajes.ipynb](ingesta_viajes.ipynb)
+Notebook: [ingesta_viajes](ingesta_viajes.ipynb)
 
 [(Contenidos)](#tabla-de-contenidos)
 <br>
@@ -60,7 +60,8 @@ En este caso, la URL de interés: [encuesta](https://docs.google.com/forms/d/e/1
 
 ## Carga del formulario
 
-Usando Python y Selenium, se cargan de forma automática los datos en el formulario, simulando las respuestas de los participantes, y se envían los mismos.
+Usando Python y Selenium, se cargan de forma automática los datos en el formulario, simulando las respuestas de los participantes, y se envían los mismos.<br>
+Notebook: [form_selenium](form_selenium.ipynb)
 
 [(Contenidos)](#tabla-de-contenidos)
 <br>
@@ -69,9 +70,9 @@ Usando Python y Selenium, se cargan de forma automática los datos en el formula
 
 Se muestran los gráficos (pie chart) de las encuestas, con los porcentajes de respuestas de todos los participantes.
 <br>
-![Image](/assets/images/Screenshot_20230210_173128.png)
+![Image1](assets/images/Screenshot_20230214_122952.png)
 <br>
-![Image](/assets/images/Screenshot_20230210_173138.png)
+![Image2](assets/images/Screenshot_20230214_123005.png)
 <br>
 
 
